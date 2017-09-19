@@ -55,7 +55,15 @@
     Fixtures.getAlbum = function() {
       return albumCables;
     };
-    
+
+    Fixtures.getCollection = function(numberOfAlbums) {
+      var collectionArray = [];
+      for (var i = 0; i < numberOfAlbums; i++) {
+        collectionArray.push(albumCables);
+      }
+      return collectionArray;
+    };
+
     return Fixtures;
   }
 
