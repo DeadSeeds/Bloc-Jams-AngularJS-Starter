@@ -48,7 +48,7 @@
         { title: 'Fool Me Twice', duration: '185.00', audioUrl: 'assets/music/07\ Fool\ Me\ Twice'},
         { title: 'Strongarm', duration: '259.00', audioUrl: 'assets/music/08\ Strongarm'},
         { title: 'Youll Be Sorry', duration: '216.00', audioUrl: 'assets/music/09\ Youll\ Be\ Sorry'},
-        { title: 'Gift Horse', duration: '194.00', audioUrl: 'assets/music/010\ Gift\ Horse'}
+        { title: 'Gift Horse', duration: '194.00', audioUrl: 'assets/music/10\ Gift\ Horse'}
       ]
     };
 
