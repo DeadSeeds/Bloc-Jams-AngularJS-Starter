@@ -31,11 +31,27 @@
         currentSong = song;
       };
 
+      /*
+      * @function playSong
+      * @desc Plays new audio file (song) as currentBuzzObject
+      * @param {Object} song
+      */
+
+      var playSong = function(song) {
+        currentBuzzObject.play();
+        song.playing = true;
+      };
+
+      /*
+      * @function SongPlayer.play
+      * @desc Method that sets current song and plays it
+      * @param {Object} song
+      */
+
       SongPlayer.play = function(song) {
         if (currentSong !== song) {
           setSong(song);
-          currentBuzzObject.play();
-          song.playing = true;
+          playSong(song);
         }
       };
 
